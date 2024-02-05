@@ -1,0 +1,77 @@
+/* In style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* In style_darstellung1.css */
+.resume {
+    color: #3366cc;
+}
+
+/* In style_darstellung2.css */
+.About Me {
+    color: #ff9900;
+}
+/* In style_darstellung1.css */
+.Unterseite1 {
+    color: #3366cc;
+}
+
+/* In style_darstellung2.css */
+.Unterseite2 {
+    color: #ff9900;
+}
+ <style>
+        /* Container-Stil */
+        .bild-container {
+            width: 100%; /* Container nimmt die volle Breite des Eltern-Containers ein */
+        }
+
+        /* Bild-Stil */
+        .bild-container img {
+            width: 100%; /* Bilder nehmen die volle Breite des Container-Bereichs ein */
+            height: auto; /* Behält das Seitenverhältnis bei */
+            margin-bottom: 10px; /* Fügt 10 Pixel Abstand unter jedem Bild hinzu */
+        }
+    </style>
+
+<!-- Navigation Container -->
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="Unterseite1.html">Class1-5</a></li>
+                <li><a href="Unterseite2.html">Class6-13</a></li>
+            </ul>
+        </nav>
+    </div>
+/* In style_index.css */
+.index {
+}
+
+/* In style_darstellung1.css */
+.darstellung1 {
+    color: #3366cc;
+}
+
+/* In style_darstellung2.css */
+.darstellung2 {
+    color: #ff9900;
+}
+div {
+      width: 950px;
+      margin: 20px auto;
+      background-color: #FFFFFF;
+      opacity: 0.9;
+      padding: 20px;
+    }
+    img {
+      position: relative;
+      float: right;
+    }
